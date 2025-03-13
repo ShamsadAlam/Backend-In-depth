@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <h1>Front-end and Back-end</h1>
+      <h1>Front-end and Back-end | JavaScript</h1>
       <p>JOKES: {jokes.length}</p>
       {jokes.map((joke, index) => {
         return (
