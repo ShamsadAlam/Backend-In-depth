@@ -1,0 +1,15 @@
+{
+  "name": "data-modeling",
+  "version": "1.0.0",
+  "description": "Data Modeling",
+  "license": "ISC",
+  "author": "Shamsad Alam",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.12.1"
+  }
+}
