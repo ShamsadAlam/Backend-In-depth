@@ -26,7 +26,7 @@ const app = express();
 
 // Second method-> make seperae-te connection of Database
 import dotenv from "dotenv";
-dotenv.config();
+dotenv.config({ path: "./.env" });
 import connectDB from "./db/dbConnect.js";
 import app from "./app.js";
 const port = process.env.PORT || 8000;
